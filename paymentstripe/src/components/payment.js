@@ -38,7 +38,7 @@ const Payment=()=>{
         const headers={
             "Content-Type":"application/json"
         }
-        const response=await fetch("https://swio-task-g1pi.onrender.com/create-checkout-session",{
+        const response=await fetch("https://swio-task-vmjo.onrender.com/create-checkout-session",{
             method:"POST",
             headers:headers,
             body:JSON.stringify(body)
