@@ -52,8 +52,8 @@ app.post("/api/create-checkout-session",async(req,res)=>{
         }],
         mode:"payment",
         customer:customer.id,
-        success_url:"http://localhost:3000/success",
-        cancel_url:"http://localhost:3000/cancel",
+        success_url:"https://swio-task-seven.vercel.app/success",
+        cancel_url:"https://swio-task-seven.vercel.app/cancel",
     });
     //console.log(session.id)
     const sou={
